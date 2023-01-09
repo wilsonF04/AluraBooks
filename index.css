@@ -1,0 +1,22 @@
+@import url(/AluraBooks/styles/header.css);
+@import url(/AluraBooks/styles/banner.css);
+@import url(/AluraBooks/styles/carrosel.css);
+@import url(/AluraBooks/styles/topicos.css);
+@import url(/AluraBooks/styles/contato.css);
+@import url(/AluraBooks/styles/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --azul-escuro: #002f52;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
